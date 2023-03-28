@@ -1,1 +1,0 @@
-# Yashi1011.github.io

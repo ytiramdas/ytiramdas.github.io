@@ -1,0 +1,35 @@
+- name: Flask
+  percentage: 90
+  color: info
+
+- name: React
+  percentage: 60
+  color: success
+
+- name: Node
+  percentage: 60
+  color: primary
+
+- name: GIT
+  percentage: 90
+  color: dark
+
+- name: Docker
+  percentage: 70
+  color: secondary
+
+- name: Windows & Linux
+  percentage: 100
+  color: warning
+
+- name: Visual Studio Code
+  percentage: 80
+  color: success
+
+- name: Eclipse
+  percentage: 70
+  color: info
+
+- name: MySQL Workbench
+  percentage: 60
+  color: warning

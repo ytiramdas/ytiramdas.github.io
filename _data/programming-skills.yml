@@ -1,0 +1,35 @@
+- name: Python
+  percentage: 100
+  color: Primary
+
+- name: HTML5/CSS3
+  percentage: 90
+  color: danger
+
+- name: C
+  percentage: 80
+  color: secondary
+
+- name: Java
+  percentage: 70
+  color: warning
+
+- name: JavaScript
+  percentage: 60
+  color: info
+
+- name: MySQL
+  percentage: 90
+  color: dark
+
+- name: Shell Scripting
+  percentage: 90
+  color: danger
+
+- name: Ruby
+  percentage: 50
+  color: primary
+
+- name: PHP
+  percentage: 70
+  color: secondary
