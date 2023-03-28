@@ -9,6 +9,4 @@ weight: 4
 
 <br/>
 
-<div class="row">
-    {% pdf "../assets/pdf/resume.pdf" no_link %}
-</div>
+{% pdf "../assets/pdf/resume.pdf" no_link %}
