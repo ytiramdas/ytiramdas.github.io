@@ -1,7 +1,7 @@
 ---
 name: The Webseries Project
 tools: [PHP, CSS, HTML, DBMS]
-image: ..\assets\images\webseries.png
+image: ../assets/images/webseries.png
 description: It is a web app that have both user and admin functionality where admin can add or delete series, and user can watch web series. It is created to understand DBMS concepts.
 ---
 
