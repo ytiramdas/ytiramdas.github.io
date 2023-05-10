@@ -15,12 +15,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="How to undo your git failure?">
-  <meta property="og:description" content="Using `git reflog` and `git reset` to save your code.">
+  <meta property="og:title" content="Basic Bit Manipulation">
+  <meta property="og:description" content="Basics of bitwise operators and Bit Manipulation techniques like set bit, clear bit, update bit and get bit codes and logics are specified.">
   <meta property="og:image" content="assets/images/yashi.jpg">
 
-  <title>How to undo your git failure?</title>
-  <meta name="description" content="Using `git reflog` and `git reset` to save your code.">
+  <title>Basic Bit Manipulation</title>
+  <meta name="description" content="Basics of bitwise operators and Bit Manipulation techniques like set bit, clear bit, update bit and get bit codes and logics are specified.">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -69,24 +69,71 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1><b>How to undo your git failure?</b></h1>
+  <h1><b>Basic Bit Manipulation</b></h1>
 
 <p class="post-metadata text-muted">
-  25 September 2015 -  
+  10 May 2023 -  
   <b>less than 1 min read time</b>
 
   <br>Tags: 
     
-    <a class="text-decoration-none no-underline" href="/blog/tags#external-post">
-      <span class="tag badge badge-pill text-primary border border-primary">External Post</span>
+    <a class="text-decoration-none no-underline" href="/blog/tags#c">
+      <span class="tag badge badge-pill text-primary border border-primary">C</span>
     </a>
     
-    <a class="text-decoration-none no-underline" href="/blog/tags#git">
-      <span class="tag badge badge-pill text-primary border border-primary">Git</span>
+    <a class="text-decoration-none no-underline" href="/blog/tags#competitive-coding">
+      <span class="tag badge badge-pill text-primary border border-primary">Competitive Coding</span>
     </a>
     </p>
 
+<p>Bit manipulation refers to the manipulation of individual bits within a binary representation of data. This can be done using bitwise operators that operate on individual bits of integers. Here are some basic bit manipulations that can be performed using bitwise operators:</p>
 
+<ul>
+  <li>
+    <p><strong>Bitwise AND (&amp;):</strong> Performs a logical AND operation between corresponding bits of two integers.</p>
+
+    <blockquote>
+      <p>Example: 5 &amp; 3 will yield 1 (because 5 in binary is 101 and 3 in binary is 011, so the result is 001).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Bitwise OR (|):</strong> Performs a logical OR operation between corresponding bits of two integers.</p>
+
+    <blockquote>
+      <p>Example: 5 | 3 will yield 7 (because 5 in binary is 101 and 3 in binary is 011, so the result is 111).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Bitwise XOR (^):</strong> Performs a logical XOR (exclusive OR) operation between corresponding bits of two integers.</p>
+
+    <blockquote>
+      <p>Example: 5 ^ 3 will yield 6 (because 5 in binary is 101 and 3 in binary is 011, so the result is 110).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Bitwise NOT (~):</strong> Flips the bits of an integer, changing 0 to 1 and vice versa.</p>
+
+    <blockquote>
+      <p>Example: ~5 will yield 2 (because 5 in binary is 101, and flipping the bits results in 010, which is the binary representation of 2).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Left shift («):</strong> Shifts the bits of an integer to the left by a specified number of positions.</p>
+
+    <blockquote>
+      <p>Example: 5 « 2 will yield 20 (because shifting 5 (101 in binary) two positions to the left results in 10100, which is the binary representation of 20).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Right shift (»):</strong> Shifts the bits of an integer to the right by a specified number of positions.</p>
+
+    <blockquote>
+      <p>Example: 5 » 1 will yield 2 (because shifting 5 (101 in binary) one position to the right results in 10, which is the binary representation of 2).</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>These are some basic bit manipulation operations that can be performed using bitwise operators. They are useful in various applications such as low-level programming, data compression, cryptography, and optimizing algorithms.</p>
 
 
 
