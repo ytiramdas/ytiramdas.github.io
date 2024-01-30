@@ -8,7 +8,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-I am 5th year student pursuing an Integrated Masters in Computer Science in University of Hyderabad. I am a Machine Learning Enthusiast and interests in Software Development. I have passion for pixel perfect, minimal and easy to use interfaces.
+I am a Software Development Engineer at Krutrim. I pursued an Integrated Master's in Computer Science at the University of Hyderabad. I am a Machine Learning Enthusiast and am interested in Software Development. I have a passion for pixel-perfect, minimal, and easy-to-use interfaces.
 
 ## Experience
 <div class="row">
