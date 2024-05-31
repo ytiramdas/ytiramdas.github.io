@@ -14,8 +14,8 @@ open_new_tab        : false                             # Opens external URLs in
 
 ### Plugins ###
 plugins:
-  - jemoji
   - jekyll-pdf-embed
+  - jemoji
 
 
 ### Navbar Settings ###
