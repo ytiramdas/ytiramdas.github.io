@@ -9,4 +9,4 @@ weight: 4
 
 <br/>
 
-{% pdf "../assets/pdf/resume.pdf" no_link %}
+<!-- {% pdf "../assets/pdf/resume.pdf" no_link %} -->
