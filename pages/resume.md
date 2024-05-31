@@ -1,11 +1,12 @@
 ---
-layout: default
+layout: page
 title: Resume
 permalink: /Resume/
 weight: 4
 ---
 
-<h1>My Resume </h1>
+# **My Resume**
 
+<br/>
 
 {% pdf "../assets/pdf/resume.pdf" no_link %}
