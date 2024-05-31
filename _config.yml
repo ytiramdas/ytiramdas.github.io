@@ -7,7 +7,7 @@ description         : >-
                       working as SDE I 💻 at KRUTRIM and finished my 
                       Integrated Masters degree 📚 in Computer Science at UOH.
 baseurl             : ""   
-repository          : Yashi1011/Yashi1011.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+repository          : ytiramdas/ytiramdas.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
@@ -33,11 +33,11 @@ author:
 # dribbble          : your_username
   email             : yasaswinitiramdas11@gmail.com
 # facebook          : your_username
-  github            : Yashi1011
+  github            : ytiramdas
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : yasaswini-tiramdas-20727a18a
+  linkedin          : yasaswini-tiramdas
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
