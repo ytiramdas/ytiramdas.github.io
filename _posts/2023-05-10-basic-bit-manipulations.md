@@ -33,3 +33,5 @@ Bit manipulation refers to the manipulation of individual bits within a binary r
     > Example: 5 >> 1 will yield 2 (because shifting 5 (101 in binary) one position to the right results in 10, which is the binary representation of 2).
 
 These are some basic bit manipulation operations that can be performed using bitwise operators. They are useful in various applications such as low-level programming, data compression, cryptography, and optimizing algorithms.
+
+## How to set a bit
