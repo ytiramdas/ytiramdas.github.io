@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Basic Bit Manipulation">
+  <meta property="og:description" content="Basics of bitwise operators and Bit Manipulation techniques like set bit, clear bit, update bit and get bit codes and logics are specified.">
+  <meta property="og:image" content="assets/images/yashi.jpg">
+
+  <title>Basic Bit Manipulation</title>
+  <meta name="description" content="Basics of bitwise operators and Bit Manipulation techniques like set bit, clear bit, update bit and get bit codes and logics are specified.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Yasaswini Tiramdas</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/Resume/">Resume</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>Basic Bit Manipulation</b></h1>
+
+<p class="post-metadata text-muted">
+  10 May 2023 -  
+  <b>less than 1 min read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#c">
+      <span class="tag badge badge-pill text-primary border border-primary">C</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#competitive-coding">
+      <span class="tag badge badge-pill text-primary border border-primary">Competitive Coding</span>
+    </a>
+    </p>
+
+<p>Bit manipulation refers to the manipulation of individual bits within a binary representation of data. This can be done using bitwise operators that operate on individual bits of integers. Here are some basic bit manipulations that can be performed using bitwise operators:</p>
+
+<ul>
+  <li>
+    <p><strong>Bitwise AND (&amp;):</strong> Performs a logical AND operation between corresponding bits of two integers.</p>
+
+    <blockquote>
+      <p>Example: 5 &amp; 3 will yield 1 (because 5 in binary is 101 and 3 in binary is 011, so the result is 001).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Bitwise OR (|):</strong> Performs a logical OR operation between corresponding bits of two integers.</p>
+
+    <blockquote>
+      <p>Example: 5 | 3 will yield 7 (because 5 in binary is 101 and 3 in binary is 011, so the result is 111).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Bitwise XOR (^):</strong> Performs a logical XOR (exclusive OR) operation between corresponding bits of two integers.</p>
+
+    <blockquote>
+      <p>Example: 5 ^ 3 will yield 6 (because 5 in binary is 101 and 3 in binary is 011, so the result is 110).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Bitwise NOT (~):</strong> Flips the bits of an integer, changing 0 to 1 and vice versa.</p>
+
+    <blockquote>
+      <p>Example: ~5 will yield 2 (because 5 in binary is 101, and flipping the bits results in 010, which is the binary representation of 2).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Left shift («):</strong> Shifts the bits of an integer to the left by a specified number of positions.</p>
+
+    <blockquote>
+      <p>Example: 5 « 2 will yield 20 (because shifting 5 (101 in binary) two positions to the left results in 10100, which is the binary representation of 20).</p>
+    </blockquote>
+  </li>
+  <li>
+    <p><strong>Right shift (»):</strong> Shifts the bits of an integer to the right by a specified number of positions.</p>
+
+    <blockquote>
+      <p>Example: 5 » 1 will yield 2 (because shifting 5 (101 in binary) one position to the right results in 10, which is the binary representation of 2).</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>These are some basic bit manipulation operations that can be performed using bitwise operators. They are useful in various applications such as low-level programming, data compression, cryptography, and optimizing algorithms.</p>
+
+
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Yasaswini Tiramdas</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:yasaswinitiramdas11@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/ytiramdas"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/yasaswini-tiramdas"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div></footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>
