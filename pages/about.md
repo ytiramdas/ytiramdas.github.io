@@ -20,8 +20,8 @@ I am a Software Development Engineer at Krutrim. I pursued an Integrated Master'
 {% include about/timeline_edu.html %}
 </div>
 
-<div class="row">
+<!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Frameworks & Platforms" source=site.data.framework-skills %}
-</div>
+</div> -->
 
